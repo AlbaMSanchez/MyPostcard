@@ -8,7 +8,6 @@ body {
 .postcard {
 	background-color: white;
 	width: 400px;
-	height: 300px;
 	margin: auto;
 }
 .postcard-header {
@@ -30,9 +29,18 @@ body {
 }
 .body-left,
 .body-right {
-	padding: 40px;
+	padding: 10px;
+	width: 100%;
+	font-size: small;
 }
-input {
+.input {
 	border: none;
+	border-bottom: 2px solid grey;
 	border-bottom: grey;
+}
+.postcard-footer {
+	text-align: center;
+	background-color: white;
+	padding: 20px;
+
 }
